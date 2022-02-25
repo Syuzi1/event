@@ -1,0 +1,28 @@
+.footer{
+    margin: 0 auto;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(70, 153, 173);
+    border-radius: 5px;
+    
+}
+.regular > li{
+    list-style: none;
+    margin: 0 auto;
+    background-color: transparent;
+    font-size: 10px;
+    
+}
+.regular{
+    height: 10%;
+    width: 40%;
+    margin: 0 auto;
+    display: grid;
+    color: white;
+}
+.amenatak{
+    margin: 0%;
+    background-image: url(/src/wa.jpg);
+    text-align: center;
+    color: white;
+}

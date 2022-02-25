@@ -1,21 +1,18 @@
-import React from 'react';
 import './App.css';
-import Header from './components/header/Header';
-import{BrowserRouter,route} from "react-router-dom"
-import Categoreis from './components/header/links';
-
+import Heads from './head/header';
+import Panel from './head/panel/panel';
+import Footer from './footer/Footer';
 
 function App() {
-  return ( 
-  <div>
-  <BrowserRouter>
-    <Header /> 
-  
-    
-    </BrowserRouter>
+  return (
+   
+    <div className="App">
 
-  </div>
-  
-  )}
+      <Heads/>
+      <Panel/>
+      <Footer/>
+    </div>
+  );
+}
 
 export default App;

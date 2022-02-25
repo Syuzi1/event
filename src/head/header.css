@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+}
+.Background{
+    display: flex;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 74vw;
+    height: 12vh;
+    background-image: url("/src/wa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.a{
+    background-color: rgb(0, 161, 167);
+    width: 20%;
+    height: 15vh;
+    margin: 0 auto;
+}
+.LeftPart{
+   /* background-color: aqua; */
+    margin-right: 0px;
+    width: 50%;
+    height: inherit;
+
+   
+}
+
+.nkar{
+    background-image: url("/src/ticket.png");
+    margin-left: 2%;
+    position: absolute;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 68px;
+    width: 100px;
+}
+
+.RightPart{
+    /* background-color: red; */
+    margin-left: 0px;
+    width: 50%;
+    height: inherit;
+    overflow: hidden;
+    clear: both;
+
+}
+.serchLsit{
+    background-color: rgb(70, 153, 173);
+    position:absolute ;
+    top: 58px;
+    right : 13%;
+    width: 500px;
+    height: 50%;
+    border-radius: 10px;
+    text-align: left ;
+    padding: 0 20px;
+    color: white;
+    font-size: 16px;
+    overflow-y: scroll;
+}
+   
+.serchLsit h3 {
+    color: rgb(17, 40, 61);
+    font-size: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 750px){
+        .serchLsit {
+        
+            top: 146px;
+            width: 340px;
+            
+        }
+
+        
+    };
+
+
+    @media screen and (max-width: 700px){
+        .serchLsit{
+            top: 147px;
+                width: 240px;
+                
+        }
+    
+    }
+
+
+@media screen and (max-width: 580px){
+    .LeftPart{
+    height: 78px;
+    }
+    .RightPart{
+        width: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Background{
+        flex-direction: column;
+        justify-content:flex-start;
+        height: fit-content;
+        align-items: center;
+        height: unset;
+        
+    }
+    .patvirel .heraxos{
+        align-items: center;
+
+    }
+    .tellnum{
+        text-align: center;
+        text-shadow: 1px 1px 1px #aeb8fe;
+    }
+
+    .serchLsit{
+        top: 215px;
+            width: 240px;
+            
+    }
+
+
+}
+
+@media screen and (max-width: 450px){
+
+    .serchLsit{
+        top: 281px;
+            width: 220px;
+            
+    }
+
+}
+
+
+
+
+
+.patvirel{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    background-color: transparent;	
+
+}
+.search{
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 3px;
+    height: 2vh;
+    margin-right: 1%;
+    width: inherit;
+    position: relative;
+}
+.heraxos{
+    color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0%;
+
+}
+.searchdiv{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.linker > a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    width: inherit;
+    justify-content: flex-end;
+    margin-right: 2.5%;
+    
+}
+.linker{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+

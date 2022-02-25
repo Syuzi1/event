@@ -1,0 +1,45 @@
+@media screen and (max-width: 450px) {
+    .panel {
+        flex-direction: column;
+
+    }
+}
+.panel{
+    display: flex;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: rgb(70, 153, 173);
+    width: 74vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border: solid #a3a3a3;
+    text-shadow: 2px 2px 1px #3d3d3d;
+}
+
+.link-div-1, .link-div-2, .link-div-3, .link-div-4, .link-div-5{
+    margin-left: 1.5%;  
+    padding: 0 2%;
+    /* background-color: rgb(218, 247, 166);     */
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.links{
+    text-decoration: none;
+    background-color: transparent;	
+    color: rgb(255, 255, 255);
+    
+}
+
+.mejtex{
+    margin: auto;
+    height: 70vh;
+    width: 74vw;
+    background-color: rgb(182, 182, 182);
+}
