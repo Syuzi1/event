@@ -18,20 +18,3 @@ const App = () => (
     );
 
 export default App;
-
-//
-// import React from "react";
-// import { Routes ,Route } from 'react-router-dom';
-// import {Switch} from "react-router-dom";
-// import Admin from "./components/Admin/App";
-//
-// function App() {
-//     return (
-//         <Switch>
-//             {/*<Route exact path='/' component={Customer} />*/}
-//             <Route path='/admin' element={<Admin/>} />
-//         </Switch>
-//     );
-// }
-//
-// export default App;
